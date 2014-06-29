@@ -13,9 +13,11 @@ default: &default
   adapter: mysql2
   encoding: utf8
   pool: 5
-  username: root
-  password:
+  username: unote
+  password: etonu
   host: localhost
+  charset: utf8
+  collation: utf8_general_ci
 
 development:
   <<: *default
