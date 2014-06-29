@@ -16,6 +16,9 @@ gem 'jbuilder', '2.1.1'
 gem 'will_paginate', '3.0.6'
 gem 'will_paginate-bootstrap', '1.0.0'
 
+# Authentication
+gem 'devise'
+
 group :development, :test do
   gem 'spring', '1.1.3'
   gem 'spring-commands-rspec', '1.0.2'
