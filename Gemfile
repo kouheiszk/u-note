@@ -18,6 +18,9 @@ gem 'will_paginate-bootstrap', '1.0.0'
 
 # Authentication
 gem 'devise'
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
 
 group :development, :test do
   gem 'spring', '1.1.3'
