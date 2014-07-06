@@ -27,9 +27,6 @@ Rails.application.configure do
       :enable_starttls_auto => true
   }
 
-  puts ENV['gmail_account']
-  puts ENV['gmail_password']
-
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
