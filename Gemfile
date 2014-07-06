@@ -17,10 +17,10 @@ gem 'will_paginate', '3.0.6'
 gem 'will_paginate-bootstrap', '1.0.0'
 
 # Authentication
-gem 'devise'
-gem 'omniauth'
-gem 'omniauth-twitter'
-gem 'omniauth-facebook'
+gem 'devise', '3.2.4'
+gem 'omniauth', '1.2.1'
+gem 'omniauth-twitter', '1.0.1'
+gem 'omniauth-facebook', '1.6.0'
 
 group :development, :test do
   gem 'spring', '1.1.3'
@@ -32,11 +32,11 @@ group :development, :test do
   gem 'factory_girl_rails', '4.4.1'
   gem 'database_cleaner', github: 'bmabey/database_cleaner'  
   gem 'debugger'
-  gem 'capistrano', :require => false
-  gem 'capistrano-ext', :require => false
-  gem 'capistrano-rails', :require => false
-  gem 'capistrano-rbenv', :require => false
-  gem 'capistrano-bundler', :require => false
+  gem 'capistrano', require: false
+  gem 'capistrano-ext', require: false
+  gem 'capistrano-rails', require: false
+  gem 'capistrano-rbenv', require: false
+  gem 'capistrano-bundler', require: false
 end
 
 group :doc do

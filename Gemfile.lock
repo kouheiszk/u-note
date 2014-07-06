@@ -251,15 +251,15 @@ DEPENDENCIES
   coffee-rails (= 4.0.1)
   database_cleaner!
   debugger
-  devise
+  devise (= 3.2.4)
   factory_girl_rails (= 4.4.1)
   ffaker (= 1.24.0)
   jbuilder (= 2.1.1)
   jquery-rails (= 3.1.1)
   mysql2
-  omniauth
-  omniauth-facebook
-  omniauth-twitter
+  omniauth (= 1.2.1)
+  omniauth-facebook (= 1.6.0)
+  omniauth-twitter (= 1.0.1)
   rails (= 4.1.1)
   rspec (= 3.0.0)
   rspec-rails (= 3.0.0)

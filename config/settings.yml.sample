@@ -1,0 +1,13 @@
+defaults: &defaults
+  gmail_smtp_host: smtp.gmail.com
+  gmail_account: n4atou@gmail.com
+  gmail_password: n4atou-gmail-password-dummy
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
