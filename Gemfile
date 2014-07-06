@@ -10,7 +10,7 @@ gem 'uglifier', '2.5.1'
 gem 'coffee-rails', '4.0.1'
 gem 'therubyracer',  platforms: :ruby
 gem 'jquery-rails', '3.1.1'
-gem 'turbolinks', '2.2.2'
+# gem 'turbolinks', '2.2.2'
 gem 'jbuilder', '2.1.1'
 
 # Authentication
