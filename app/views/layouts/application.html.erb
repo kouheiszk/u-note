@@ -64,10 +64,16 @@
 <div class="container theme-showcase">
   <div class="page-container">
     <% if notice %>
-        <div class="alert alert-info"><%= notice %></div>
+        <div class="alert alert-dismissable alert-info">
+          <button type="button" class="close" data-dismiss="alert">×</button>
+          <%= notice %>
+        </div>
     <% end %>
     <% if alert %>
-        <div class="alert alert-danger"><%= alert %></div>
+        <div class="alert alert-dismissable alert-danger">
+          <button type="button" class="close" data-dismiss="alert">×</button>
+          <%= alert %>
+        </div>
     <% end %>
     <%= yield %>
   </div> <!-- /page-container -->

@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-
 gem 'rails', '4.1.1'
+
 gem 'mysql2'
 gem 'bcrypt', '3.1.7'
 gem 'ffaker', '1.24.0'
@@ -20,11 +20,15 @@ gem 'omniauth-twitter', '1.0.1'
 gem 'omniauth-facebook', '1.6.0'
 
 # Twitter Bootstrap
+gem 'bootstrap-sass', '3.2.0'
+gem 'twitter-bootstrap-rails', '2.2.8'
 gem 'twitter-bootswatch-rails', '3.1.1'
 gem 'twitter-bootswatch-rails-helpers', '3.1.0'
 
-# Pagination
+# Form
+gem 'simple_form', '3.1.0.rc2'
 
+# Pagination
 gem 'will_paginate', '3.0.6'
 gem 'will_paginate-bootstrap', '1.0.0'
 
@@ -36,7 +40,7 @@ group :development, :test do
   gem 'selenium-webdriver', '2.42.0'
   gem 'capybara', '2.3.0'
   gem 'factory_girl_rails', '4.4.1'
-  gem 'database_cleaner', github: 'bmabey/database_cleaner'  
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
   gem 'debugger'
   gem 'capistrano', require: false
   gem 'capistrano-ext', require: false
