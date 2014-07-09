@@ -1,0 +1,9 @@
+ja:
+  users:
+    registrations:
+      new:
+        sign_up: '登録'
+
+    sesseions:
+      new:
+        sign_in: 'ログイン'
