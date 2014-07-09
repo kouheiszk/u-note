@@ -32,6 +32,9 @@ gem 'simple_form', '3.1.0.rc2'
 gem 'will_paginate', '3.0.6'
 gem 'will_paginate-bootstrap', '1.0.0'
 
+# i18n
+gem 'geoip', '1.4.0'
+
 group :development, :test do
   gem 'spring', '1.1.3'
   gem 'spring-commands-rspec', '1.0.2'
