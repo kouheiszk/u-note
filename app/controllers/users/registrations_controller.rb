@@ -1,5 +1,7 @@
 class Users::RegistrationsController < Devise::RegistrationsController
 
+  before_action :configure_permitted_parameters, if: :devise_controller?
+
   def create
     super
     UserMailer.registration_confirmation(resource).deliver unless resource.invalid?
@@ -28,6 +30,12 @@ class Users::RegistrationsController < Devise::RegistrationsController
   def build_resource(hash=nil)
     hash[:uid] = User.create_unique_string
     super
+  end
+
+  protected
+  def configure_permitted_parameters
+    devise_parameter_sanitizer.for(:sign_up) << :name
+    devise_parameter_sanitizer.for(:account_update) << :name
   end
 
 end

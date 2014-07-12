@@ -1,8 +1,9 @@
 class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
-  devise :database_authenticatable, :omniauthable, :registerable,
-    :recoverable, :rememberable, :trackable, :validatable
+  devise :database_authenticatable, :omniauthable, :registerable, :recoverable, :rememberable, :trackable, :validatable
+
+  validates :name, presence: true, length: { maximum: 50 }
 
   # TwitterでのOAuth認証の場合、
   # ダミー用の一意でかつ通常ありえないEmailアドレスをランダムに生成して、

@@ -6,8 +6,8 @@ class UserMailer < ActionMailer::Base
   #
   #   en.user_mailer.registration_confirmation.subject
   #
-  def registration_confirmation
-    @greeting = "Hi"
+  def registration_confirmation(resource)
+    @greeting = "Hi, " + resource['name']
 
     mail to: "to@example.org"
   end
