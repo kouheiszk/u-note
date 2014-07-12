@@ -1,3 +1,10 @@
-UserMailer#registration_confirmation
+U-NOTEへようこそ
 
-<%= @greeting %>, find me in app/views/user_mailer/registration_confirmation.text.erb
+こんにちは、<%= @name %>さん
+
+あなたメールアドレス(<%= @email %>)がU-NOTEに登録されました。
+ログインは以下のリンクから行えます。
+
+<%= link_to "Sign in", new_user_session_path %>
+
+U-NOTEチームより

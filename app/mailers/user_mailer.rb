@@ -1,5 +1,8 @@
 class UserMailer < ActionMailer::Base
-  default from: "from@example.com"
+  self.default_url_options = { host: APP_CONFIG['site']['host'] }
+  include Rails.application.routes.url_helpers
+
+  default from: APP_CONFIG['email']['from']
 
   # Subject can be set in your I18n file at config/locales/en.yml
   # with the following lookup:
@@ -7,8 +10,9 @@ class UserMailer < ActionMailer::Base
   #   en.user_mailer.registration_confirmation.subject
   #
   def registration_confirmation(resource)
-    @greeting = "Hi, " + resource['name']
+    @email = resource['email']
+    @name = resource['name']
 
-    mail to: "to@example.org"
+    mail to: @email
   end
 end

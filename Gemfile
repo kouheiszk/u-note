@@ -36,13 +36,15 @@ gem 'will_paginate-bootstrap', '1.0.0'
 gem 'geoip', '1.4.0'
 
 group :development, :test do
+  gem 'guard', '2.6.1'
+  gem 'guard-rspec', '4.2.10'
   gem 'spring', '1.1.3'
   gem 'spring-commands-rspec', '1.0.2'
   gem 'rspec', '3.0.0'
   gem 'rspec-rails', '3.0.0'
+  gem 'factory_girl_rails', '4.4.1'
   gem 'selenium-webdriver', '2.42.0'
   gem 'capybara', '2.3.0'
-  gem 'factory_girl_rails', '4.4.1'
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
   gem 'debugger'
   gem 'capistrano', require: false

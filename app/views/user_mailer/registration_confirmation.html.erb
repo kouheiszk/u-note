@@ -1,5 +1,10 @@
-<h1>UserMailer#registration_confirmation</h1>
+<h1>U-NOTEへようこそ</h1>
 
-<p>
-  <%= @greeting %>, find me in app/views/user_mailer/registration_confirmation.html.erb
-</p>
+<p>こんにちは、<%= @name %>さん</p>
+
+<p>あなたメールアドレス(<%= @email %>)がU-NOTEに登録されました。<br>
+ログインは以下のリンクから行えます。</p>
+
+<p><%= link_to "Sign in", new_user_session_path %></p>
+
+<p>U-NOTEチームより</p>

@@ -1,7 +1,10 @@
 defaults: &defaults
-  gmail_smtp_host: smtp.gmail.com
-  gmail_account: n4atou@gmail.com
-  gmail_password: n4atou-gmail-password-dummy
+  gmail:
+    smtp_host: smtp.gmail.com
+    account: n4atou@gmail.com
+    password: n4atou-gmail-password-dummy
+  email:
+    from: 'n4atou@gmail.com'
 
 development:
   <<: *defaults
