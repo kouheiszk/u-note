@@ -37,9 +37,7 @@ gem 'twitter-bootswatch-rails-helpers', '3.2.0.0'    # TwitterBootstrapのヘル
 gem 'simple_form', '3.1.0.rc2'    # TwitterBootstrapに対応したフォームを簡単に書ける
 
 # Pagination
-# gem 'kaminari'                         # ページング
-gem 'will_paginate', '3.0.7'           # ページングのライブラリ
-gem 'will_paginate-bootstrap', '1.0.1' # ページングをTwitterBootstrapに対応させる
+gem 'kaminari', '0.16.1'    # ページングのライブラリ
 
 # i18n
 gem 'geoip', '1.4.0'    # ipからロケール情報を知るために
