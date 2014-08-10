@@ -57,13 +57,26 @@ $ bundle exec rake db:create --trace
 $ bundle exec rake db:migrate --trace
 ```
 
-* How to run the test suite
+* How to install assets files
+
+```sh
+$ bundle exec rails generate bootswatch:install flatly
+$ bundle exec rails generate bootswatch:import flatly
+```
+
+* How to run
 
 ```sh
 $ bundle exec rails server
 ```
 
 Access http://localhost:3000/
+
+* How to run the test suite
+
+```sh
+$ bundle exec rspec
+```
 
 * Services (job queues, cache servers, search engines, etc.)
 
