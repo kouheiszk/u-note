@@ -67,6 +67,7 @@ $ bundle exec rails generate bootswatch:import flatly
 * How to run
 
 ```sh
+$ bundle exec guard
 $ bundle exec rails server
 ```
 
@@ -75,6 +76,7 @@ Access http://localhost:3000/
 * How to run the test suite
 
 ```sh
+$ bundle exec guard
 $ bundle exec rspec
 ```
 
