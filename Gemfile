@@ -85,6 +85,8 @@ group :development, :test do
   gem 'better_errors', '1.1.0'        # エラー画面を見やすくする
   gem 'binding_of_caller', '0.7.2'    # better_errorsのエラー画面でREPLが使える
   gem 'tapp', '1.4.1'                 # プリントデバッグがしやすくなる
+
+  # Debug on Console
   gem 'pry-rails', '0.3.2'            # railsでpryが使える
   gem 'pry-byebug', '1.3.3'           # pryでデバックコマンドが使える
   gem 'awesome_print', '1.2.0'        # プリントデバッグの出力を整形
