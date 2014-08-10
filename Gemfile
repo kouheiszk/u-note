@@ -12,6 +12,9 @@ gem 'jquery-rails', '3.1.1'
 # gem 'turbolinks', '2.2.2'
 gem 'jbuilder', '2.1.1'
 
+# Configuration
+gem 'rails_config', '0.4.2'
+
 # Authentication
 gem 'devise', '3.2.4'
 gem 'omniauth', '1.2.1'

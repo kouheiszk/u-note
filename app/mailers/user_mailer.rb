@@ -1,8 +1,8 @@
 class UserMailer < ActionMailer::Base
-  self.default_url_options = { host: APP_CONFIG['site']['host'] }
+  self.default_url_options = { host: Settings.site.host }
   include Rails.application.routes.url_helpers
 
-  default from: APP_CONFIG['email']['from']
+  default from: Settings.email.from
 
   # Subject can be set in your I18n file at config/locales/en.yml
   # with the following lookup:

@@ -3,7 +3,7 @@ require "rails_helper"
 RSpec.describe UserMailer, :type => :mailer do
   before do
     @subject = "Registration confirmation"
-    @from = APP_CONFIG['email']['from']
+    @from = Settings.email.from
     @login_path = "/users/sign_in"
     @site_title = "U-NOTE"
   end
