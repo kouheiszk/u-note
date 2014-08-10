@@ -1,19 +1,6 @@
 /* Flatly
  * Bootswatch
+ *= require_self
  *= require flatly/loader
  *= require flatly/bootswatch
- *= require_self
 */
-
-/** Form */
-
-form.form-horizontal .control-label {
-    padding-left: 17px;
-    padding-bottom: 8px;
-}
-
-@media (min-width: 768px /* @screen-sm-min */) {
-    form.form-horizontal .form-actions.col-sm-offset-3 {
-        padding-left: 8px;
-    }
-}

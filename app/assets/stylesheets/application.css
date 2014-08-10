@@ -11,11 +11,26 @@
  * file per style scope.
  *
  *
- *= require_tree .
+ *
  *= require flatly
  *= require_self
  */
 
+/** Page */
+
 .page-container {
     margin: 80px 0 20px;
+}
+
+/** Form */
+
+form.form-horizontal .control-label {
+    padding-left: 17px;
+    padding-bottom: 8px;
+}
+
+@media (min-width: 768px /* @screen-sm-min */) {
+    form.form-horizontal .form-actions.col-sm-offset-3 {
+        padding-left: 8px;
+    }
 }

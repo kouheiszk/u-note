@@ -5,7 +5,6 @@ gem 'rails', '4.1.1'
 gem 'mysql2'
 gem 'bcrypt', '3.1.7'
 gem 'ffaker', '1.24.0'
-gem 'sass-rails', '4.0.3'
 gem 'uglifier', '2.5.1'
 gem 'coffee-rails', '4.0.1'
 gem 'therubyracer',  platforms: :ruby
@@ -20,10 +19,8 @@ gem 'omniauth-twitter', '1.0.1'
 gem 'omniauth-facebook', '1.6.0'
 
 # Twitter Bootstrap
-gem 'bootstrap-sass', '3.2.0'
-gem 'twitter-bootstrap-rails', '2.2.8'
-gem 'twitter-bootswatch-rails', '3.1.1'
-gem 'twitter-bootswatch-rails-helpers', '3.1.0'
+gem 'twitter-bootswatch-rails', '3.2.0.0'
+gem 'twitter-bootswatch-rails-helpers', '3.2.0.0'
 
 # Form
 gem 'simple_form', '3.1.0.rc2'
