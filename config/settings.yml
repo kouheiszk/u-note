@@ -1,0 +1,8 @@
+site:
+  host: localhost:3000
+email:
+  from: 'n4atou@gmail.com'
+gmail:
+  smtp_host: smtp.gmail.com
+  account: n4atou@gmail.com
+  password: n4atou-gmail-password-dummy

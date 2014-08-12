@@ -16,7 +16,6 @@
 /tmp
 
 # Ignore secure files.
-/config/settings.yml
 
 # Ignore other unneeded files.
 doc/
